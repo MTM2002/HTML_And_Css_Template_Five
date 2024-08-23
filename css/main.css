@@ -1021,9 +1021,6 @@ ul {
     .contact form .date {
         width: 243.2px;
     }
-    .contact form textarea {
-        width: 400px;
-    }
     .news-letter .container {
         flex-direction: column;
         justify-content: center;
@@ -1038,6 +1035,11 @@ ul {
     }
     .news-letter .form .subs {
         margin: auto;
+    }
+    .main-heading p {
+        width: 300px;
+        margin: auto;
+        line-height: 1.5;
     }
 }
 
@@ -1063,8 +1065,7 @@ ul {
     .news-letter .form .subs {
         margin: auto;
     }
-    .contact .subs {
-        margin-left: 50%;
-        transform: translateX(-50%);
+    .contact .sub {
+        width: calc(100% - 20px);
     }
 }
